@@ -15,35 +15,41 @@
     </header>
 
     <nav>
-        <a href="aboutMe">About Me</a>
-        <a href="work">Work</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#work">Work</a>
         <a href="#contactMe">Contact Me</a>
-        <a href="#resume">Resume</a>
     </nav>
     <main>
-        <div class="aboutMe">
+        <div class="aboutMe" id="aboutMe">
             <p>My name is Clay Moyer and I'm a full stack web developer from central Ohio. I'm currently working on completing the Ohio State University Coding Boot Camp. Please feel free to contact me via the links below regarding any additional questions.</p>
         </div>
-        <div class="contactMe">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:clay.moyer.1515@gmail.com">clay.moyer.1515@gmail.com</a></p>
-        </div>
-        <div class="work">
+        
+        <div class="work" id="work">
+            <section class="card">
+                <header>The Journey</header>
+                <img src="./Assets/images/theJourney.jpg" alt="The Journey, my final group collaboration project for the course." />
+                <a href="https://github.com/ClayMoyer/TheJourney">Repo</a>
+            </section>
             <section class="card">
                 <header>Password Generator</header>
-                <img src="" alt="" />
+                <img src="./Assets/images/passwordGenerator.jpg" alt="" />
                 <a href="https://github.com/ClayMoyer/Password-Generator">Repo</a>
             </section>
             <section class="card">
                 <header>Code Quiz</header>
-                <img src="" alt="" />
+                <img src="./Assets/images/codeQuiz.jpg" alt="" />
                 <a href="https://github.com/ClayMoyer/Code-Quiz">Repo</a>
             </section>
             <section class="card">
                 <header>Work Day Scheduler</header>
-                <img src="" alt="" />
+                <img src="./Assets/images/workDayScheduler.jpg" alt="" />
                 <a href="https://github.com/ClayMoyer/Work-Day-Scheduler">Repo</a>
             </section>
+        </div>
+
+        <div class="contactMe" id="contactMe">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:clay.moyer.1515@gmail.com">clay.moyer.1515@gmail.com</a></p>
         </div>
     </main>
 </body>
