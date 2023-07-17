@@ -1,0 +1,119 @@
+* {
+    color: antiquewhite
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+body {
+    background-color: #13293d;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+header p#name {
+    font-size: 1.75rem
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  nav {
+    display: inline-block;
+    background-color: #2f40b3;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    margin: 20px;
+  }
+  
+
+  #work {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+
+  }
+  
+  
+  .largeCard {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .largeCard img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .smallCard {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .smallCard > header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .smallCard img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  @media screen and (max-width: 992px) {
+    
+    main,
+    nav, 
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+};
