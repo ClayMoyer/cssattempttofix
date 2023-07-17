@@ -13,6 +13,9 @@ body {
     min-height: 100vh;
     justify-content: center;
 }
+header p#name {
+    font-size: 1.75rem
+}
 h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
